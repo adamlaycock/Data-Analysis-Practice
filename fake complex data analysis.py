@@ -105,6 +105,7 @@ fig4.set_xticklabels(fontsize='8')
 plt.title('Remote Work Distribution by Department')
 plt.show()
 
+print("hello")
 # Task 5: Manager Analysis
 # Employee Numbers
 manager_counts=data.groupby('Manager ID').size().reset_index(name='Employee Number')
